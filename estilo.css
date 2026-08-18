@@ -423,9 +423,9 @@ a {
   box-shadow: 0 8px 30px rgba(44, 25, 12, .05); 
 } 
  
-.photo { 
-  height: 250px; 
-} 
+.photo {
+  height: 180px;
+}
  
 .placeholder { 
   display: flex; 
