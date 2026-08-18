@@ -641,4 +641,27 @@ footer {
     min-height: 170px;
   }
 
+  .logo img {
+  width: 170px;
+  height: 70px;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-logo img {
+  width: 190px;
+  height: 80px;
+}
+
+@media (max-width: 800px) {
+  .logo img {
+    width: 140px;
+    height: 60px;
+  }
+
+  .footer-logo img {
+    width: 160px;
+    height: 70px;
+  }
+
 }
