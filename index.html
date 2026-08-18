@@ -1,517 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Hotel Kilegal | Sua estadia com conforto</title>
-
-    <meta name="description"
-        content="Hotel Kilegal em Terra Santa, Pará. Suítes confortáveis com ar-condicionado, TV, Wi-Fi, banheiro e frigobar. Consulte valores e disponibilidade.">
-
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hotel Kilegal — conforto, tranquilidade e uma ótima estadia. Conheça nossos quartos e faça sua reserva.">
+  <title>Hotel Kilegal | Sua estadia com conforto</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
+  <header class="topo">
+    <a class="logo" href="#inicio" aria-label="Hotel Kilegal">
+      <span class="logo-mark">K</span>
+      <span>HOTEL <strong>KILEGAL</strong></span>
+    </a>
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="menu">
+      <a href="#quartos">Quartos</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-    <!-- CABEÇALHO -->
-    <header class="header">
-
-        <div class="logo">
-            <span class="logo-icon">K</span>
-            <span>HOTEL <strong>KILEGAL</strong></span>
-        </div>
-
-        <nav class="menu">
-            <a href="#quartos">Suítes</a>
-            <a href="#galeria">Galeria</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#contato">Contato</a>
-        </nav>
-
-        <button class="menu-btn" aria-label="Abrir menu">
-            ☰
-        </button>
-
-    </header>
-
-
-    <!-- CAPA -->
+  <main id="inicio">
     <section class="hero">
-
-        <div class="hero-content">
-
-            <span class="hero-small">🏨 HOTEL KILEGAL</span>
-
-            <h1>
-                Conforto para você
-                <br>
-                se sentir em casa.
-            </h1>
-
-            <p>
-                Uma estadia confortável, tranquila e acolhedora
-                em Terra Santa, Pará.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#quartos" class="btn btn-primary">
-                    Conheça nossas suítes
-                </a>
-
-                <a href="#contato" class="btn btn-secondary">
-                    Fazer reserva
-                </a>
-
-            </div>
-
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="tag">🏨 HOTEL KILEGAL</span>
+        <h1>Conforto para você<br><span>se sentir em casa.</span></h1>
+        <p>Uma estadia confortável, tranquila e acolhedora.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#quartos">Conheça os quartos</a>
+          <a class="btn btn-light" href="#contato">Fazer reserva</a>
         </div>
-
+      </div>
     </section>
 
-
-    <!-- DESTAQUES -->
-    <section class="highlights">
-
-        <div class="highlight">
-            <span class="highlight-icon">🛏️</span>
-            <div>
-                <strong>Suítes confortáveis</strong>
-                <small>Para sua estadia</small>
-            </div>
-        </div>
-
-        <div class="highlight">
-            <span class="highlight-icon">📍</span>
-            <div>
-                <strong>Boa localização</strong>
-                <small>Em frente à Panificadora Andrade</small>
-            </div>
-        </div>
-
-        <div class="highlight">
-            <span class="highlight-icon">📞</span>
-            <div>
-                <strong>Atendimento</strong>
-                <small>Fale conosco</small>
-            </div>
-        </div>
-
-        <div class="highlight">
-            <span class="highlight-icon">⭐</span>
-            <div>
-                <strong>Experiência</strong>
-                <small>Conte com nossa equipe</small>
-            </div>
-        </div>
-
+    <section class="beneficios">
+      <div><span>🛏️</span><strong>Quartos confortáveis</strong><small>Para descansar bem</small></div>
+      <div><span>📍</span><strong>Localização</strong><small>Fácil acesso</small></div>
+      <div><span>📞</span><strong>Atendimento</strong><small>Fale conosco</small></div>
+      <div><span>⭐</span><strong>Experiência</strong><small>Conte com nossa equipe</small></div>
     </section>
 
+    <section class="section" id="quartos">
+      <div class="section-head">
+        <span class="eyebrow">ACOMODAÇÕES</span>
+        <h2>Conheça nossos quartos</h2>
+        <p>Veja as acomodações do Hotel Kilegal e escolha a opção ideal para sua estadia.</p>
+      </div>
 
-    <!-- SUÍTES -->
-    <section id="quartos" class="section">
-
-        <div class="section-title">
-
-            <span>ACOMODAÇÕES</span>
-
-            <h2>
-                Conheça nossas suítes
-            </h2>
-
-            <p>
-                O Hotel Kilegal possui 4 suítes preparadas para
-                proporcionar conforto e praticidade durante sua estadia.
-            </p>
-
-        </div>
-
-
-        <div class="rooms">
-
-
-            <!-- SUÍTE 1 -->
-            <article class="room-card">
-
-                <div class="room-image placeholder">
-                    📷
-                    <span>Foto da suíte</span>
-                    <small>Em breve</small>
-                </div>
-
-                <div class="room-content">
-
-                    <h3>Suíte 1</h3>
-
-                    <p>
-                        Suíte confortável e equipada para sua estadia.
-                    </p>
-
-                    <ul>
-                        <li>❄️ Ar-condicionado</li>
-                        <li>📺 TV</li>
-                        <li>📶 Wi-Fi</li>
-                        <li>🚿 Banheiro</li>
-                        <li>🧊 Frigobar</li>
-                        <li>🛏️ Cama</li>
-                    </ul>
-
-                    <a href="#contato" class="room-link">
-                        Consultar valores e disponibilidade →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <!-- SUÍTE 2 -->
-            <article class="room-card">
-
-                <div class="room-image placeholder">
-                    📷
-                    <span>Foto da suíte</span>
-                    <small>Em breve</small>
-                </div>
-
-                <div class="room-content">
-
-                    <h3>Suíte 2</h3>
-
-                    <p>
-                        Conforto e praticidade para uma ótima hospedagem.
-                    </p>
-
-                    <ul>
-                        <li>❄️ Ar-condicionado</li>
-                        <li>📺 TV</li>
-                        <li>📶 Wi-Fi</li>
-                        <li>🚿 Banheiro</li>
-                        <li>🧊 Frigobar</li>
-                        <li>🛏️ Cama</li>
-                    </ul>
-
-                    <a href="#contato" class="room-link">
-                        Consultar valores e disponibilidade →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <!-- SUÍTE 3 -->
-            <article class="room-card">
-
-                <div class="room-image placeholder">
-                    📷
-                    <span>Foto da suíte</span>
-                    <small>Em breve</small>
-                </div>
-
-                <div class="room-content">
-
-                    <h3>Suíte 3</h3>
-
-                    <p>
-                        Um espaço aconchegante para descansar e aproveitar sua estadia.
-                    </p>
-
-                    <ul>
-                        <li>❄️ Ar-condicionado</li>
-                        <li>📺 TV</li>
-                        <li>📶 Wi-Fi</li>
-                        <li>🚿 Banheiro</li>
-                        <li>🧊 Frigobar</li>
-                        <li>🛏️ Cama</li>
-                    </ul>
-
-                    <a href="#contato" class="room-link">
-                        Consultar valores e disponibilidade →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <!-- SUÍTE 4 -->
-            <article class="room-card">
-
-                <div class="room-image placeholder">
-                    📷
-                    <span>Foto da suíte</span>
-                    <small>Em breve</small>
-                </div>
-
-                <div class="room-content">
-
-                    <h3>Suíte 4</h3>
-
-                    <p>
-                        Uma opção confortável para uma hospedagem tranquila.
-                    </p>
-
-                    <ul>
-                        <li>❄️ Ar-condicionado</li>
-                        <li>📺 TV</li>
-                        <li>📶 Wi-Fi</li>
-                        <li>🚿 Banheiro</li>
-                        <li>🧊 Frigobar</li>
-                        <li>🛏️ Cama</li>
-                    </ul>
-
-                    <a href="#contato" class="room-link">
-                        Consultar valores e disponibilidade →
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
+      <div class="cards">
+        <article class="room-card">
+          <div class="photo placeholder"><span>📷</span><b>FOTO DO QUARTO</b><small>Substitua por sua foto</small></div>
+          <div class="room-info"><h3>Quarto</h3><p>Espaço confortável para sua estadia.</p><a href="#contato">Consultar disponibilidade →</a></div>
+        </article>
+        <article class="room-card">
+          <div class="photo placeholder"><span>📷</span><b>FOTO DO QUARTO</b><small>Substitua por sua foto</small></div>
+          <div class="room-info"><h3>Quarto para casal</h3><p>Conforto e praticidade para duas pessoas.</p><a href="#contato">Consultar disponibilidade →</a></div>
+        </article>
+        <article class="room-card">
+          <div class="photo placeholder"><span>📷</span><b>FOTO DA SUÍTE</b><small>Substitua por sua foto</small></div>
+          <div class="room-info"><h3>Suíte</h3><p>Uma opção especial para sua hospedagem.</p><a href="#contato">Consultar disponibilidade →</a></div>
+        </article>
+      </div>
     </section>
 
-
-    <!-- GALERIA -->
-    <section id="galeria" class="section gallery-section">
-
-        <div class="section-title">
-
-            <span>GALERIA</span>
-
-            <h2>
-                Conheça o Hotel Kilegal
-            </h2>
-
-            <p>
-                Em breve você poderá conferir fotos das nossas suítes
-                e das instalações do hotel.
-            </p>
-
-        </div>
-
-        <div class="gallery-placeholder">
-
-            <div>
-                📷
-                <h3>Fotos em breve</h3>
-                <p>
-                    Estamos preparando nossa galeria.
-                </p>
-            </div>
-
-        </div>
-
+    <section class="section gallery-section" id="galeria">
+      <div class="section-head">
+        <span class="eyebrow">GALERIA</span>
+        <h2>Veja o Hotel Kilegal</h2>
+        <p>Adicione aqui suas melhores fotos da fachada, quartos, banheiros e áreas do hotel.</p>
+      </div>
+      <div class="gallery">
+        <div class="gallery-item big placeholder"><span>📷</span><b>FACHADA</b></div>
+        <div class="gallery-item placeholder"><span>📷</span><b>QUARTO</b></div>
+        <div class="gallery-item placeholder"><span>📷</span><b>BANHEIRO</b></div>
+        <div class="gallery-item placeholder"><span>📷</span><b>ÁREA DO HOTEL</b></div>
+        <div class="gallery-item placeholder"><span>📷</span><b>OUTRA FOTO</b></div>
+      </div>
     </section>
 
-
-    <!-- SOBRE -->
-    <section id="sobre" class="about">
-
-        <div class="about-content">
-
-            <span>HOTEL KILEGAL</span>
-
-            <h2>
-                Uma hospedagem confortável
-                em Terra Santa.
-            </h2>
-
-            <p>
-                O Hotel Kilegal oferece suítes confortáveis para
-                quem busca praticidade, tranquilidade e uma boa
-                experiência durante sua estadia.
-            </p>
-
-            <p>
-                Todas as nossas suítes possuem ar-condicionado,
-                TV, Wi-Fi, banheiro, frigobar e cama.
-            </p>
-
-        </div>
-
+    <section class="about" id="sobre">
+      <div class="about-image placeholder"><span>📷</span><b>FOTO DO HOTEL</b></div>
+      <div class="about-text">
+        <span class="eyebrow">SOBRE NÓS</span>
+        <h2>Bem-vindo ao Hotel Kilegal</h2>
+        <p>Estamos prontos para receber você com conforto, atenção e uma experiência agradável durante sua hospedagem.</p>
+        <p>Conheça nossas acomodações, confira as fotos e entre em contato para consultar disponibilidade e fazer sua reserva.</p>
+        <a class="text-link" href="#contato">Quero fazer uma reserva →</a>
+      </div>
     </section>
 
-
-    <!-- LOCALIZAÇÃO -->
-    <section class="location">
-
-        <div class="section-title">
-
-            <span>LOCALIZAÇÃO</span>
-
-            <h2>
-                Onde estamos
-            </h2>
-
+    <section class="location section">
+      <div class="section-head">
+        <span class="eyebrow">LOCALIZAÇÃO</span>
+        <h2>Como chegar</h2>
+        <p>Coloque aqui o endereço oficial do Hotel Kilegal.</p>
+      </div>
+      <div class="location-box">
+        <div class="map-placeholder">📍</div>
+        <div>
+          <h3>Hotel Kilegal</h3>
+          <p>SEU ENDEREÇO AQUI<br>Cidade — Estado</p>
+          <a class="btn btn-primary" href="https://www.google.com/maps" target="_blank" rel="noopener">Abrir no Google Maps</a>
         </div>
-
-        <div class="location-box">
-
-            <div class="location-info">
-
-                <h3>📍 Hotel Kilegal</h3>
-
-                <p>
-                    Travessa Nossa Senhora de Fátima,
-                    nº 852
-                </p>
-
-                <p>
-                    Bairro Santa Clara
-                </p>
-
-                <p>
-                    Terra Santa – Pará
-                </p>
-
-                <strong>
-                    📌 Em frente à Panificadora Andrade
-                </strong>
-
-                <a
-                    href="https://share.google/DpE0QtaChg5hfc6fq"
-                    target="_blank"
-                    class="btn btn-primary">
-                    Ver localização no Google Maps
-                </a>
-
-            </div>
-
-        </div>
-
+      </div>
     </section>
 
-
-    <!-- CONTATO -->
-    <section id="contato" class="contact">
-
-        <div class="section-title">
-
-            <span>RESERVAS E INFORMAÇÕES</span>
-
-            <h2>
-                Entre em contato
-            </h2>
-
-            <p>
-                Consulte valores e disponibilidade das suítes.
-            </p>
-
+    <section class="contact" id="contato">
+      <div class="contact-inner">
+        <span class="eyebrow">RESERVAS</span>
+        <h2>Quer se hospedar no Hotel Kilegal?</h2>
+        <p>Entre em contato para consultar disponibilidade, valores e fazer sua reserva.</p>
+        <div class="contact-actions">
+          <a class="btn btn-whatsapp" href="https://wa.me/55SEUNUMERO" target="_blank" rel="noopener">💬 Reservar pelo WhatsApp</a>
+          <a class="btn btn-light-dark" href="tel:+55SEUNUMERO">📞 Ligar para o hotel</a>
         </div>
-
-
-        <div class="contacts">
-
-
-            <!-- RAYAN -->
-            <div class="contact-card">
-
-                <span>📞</span>
-
-                <h3>Rayan</h3>
-
-                <p>
-                    (93) 99241-1717
-                </p>
-
-                <a
-                    href="https://wa.me/5593992411717"
-                    target="_blank">
-                    Falar pelo WhatsApp
-                </a>
-
-            </div>
-
-
-            <!-- ALDA -->
-            <div class="contact-card">
-
-                <span>📞</span>
-
-                <h3>Alda</h3>
-
-                <p>
-                    (93) 99210-3342
-                </p>
-
-                <a
-                    href="https://wa.me/5593992103342"
-                    target="_blank">
-                    Falar pelo WhatsApp
-                </a>
-
-            </div>
-
-
-            <!-- REINALDO -->
-            <div class="contact-card">
-
-                <span>📞</span>
-
-                <h3>Reinaldo Vel</h3>
-
-                <p>
-                    (93) 99185-8355
-                </p>
-
-                <a
-                    href="https://wa.me/5593991858355"
-                    target="_blank">
-                    Falar pelo WhatsApp
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <!-- INSTAGRAM -->
-        <div class="instagram-box">
-
-            <h3>📸 Siga o Hotel Kilegal</h3>
-
-            <p>
-                Acompanhe nossas novidades e veja as fotos
-                do hotel no Instagram.
-            </p>
-
-            <a
-                href="https://www.instagram.com/hotelkilegal20"
-                target="_blank"
-                class="btn btn-primary">
-                @HOTEL_KILEGAL
-            </a>
-
-        </div>
-
+      </div>
     </section>
+  </main>
 
+  <footer>
+    <div class="footer-main">
+      <div>
+        <a class="logo footer-logo" href="#inicio"><span class="logo-mark">K</span><span>HOTEL <strong>KILEGAL</strong></span></a>
+        <p>Conforto, tranquilidade e uma ótima estadia.</p>
+      </div>
+      <div class="socials">
+        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+    </div>
+    <div class="copyright">© 2026 Hotel Kilegal. Todos os direitos reservados.</div>
+  </footer>
 
-    <!-- RODAPÉ -->
-    <footer>
-
-        <div class="footer-logo">
-            HOTEL <strong>KILEGAL</strong>
-        </div>
-
-        <p>
-            © 2026 Hotel Kilegal. Todos os direitos reservados.
-        </p>
-
-        <p>
-            Terra Santa – Pará
-        </p>
-
-    </footer>
-
-
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
