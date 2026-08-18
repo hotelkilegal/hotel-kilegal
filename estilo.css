@@ -908,16 +908,5 @@ footer {
   .contact { 
     padding: 70px 6%; 
   } 
- .video-item {
-  grid-column: 1 / -1;
-  border-radius: 16px;
-  overflow: hidden;
-}
 
-.video-item video {
-  width: 100%;
-  display: block;
-  max-height: 500px;
-  object-fit: cover;
-}
  
